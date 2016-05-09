@@ -1,5 +1,6 @@
 import random
 
+finalCode = ''
 
 for x in range(5):
     
