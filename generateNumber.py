@@ -1,4 +1,12 @@
 import random
+import datetime
+
+currentTime = int(time.time())
+randomInt = random.randint()
+
+myHash = currentTime
+
+random.seed(myHash)
 
 finalCode = ''
 finalCode = str(finalCode)
