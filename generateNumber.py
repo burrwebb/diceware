@@ -1,7 +1,7 @@
 import random
 
 finalCode = ''
-str(finalCode)
+finalCode = str(finalCode)
 
 for x in range(5):
     
