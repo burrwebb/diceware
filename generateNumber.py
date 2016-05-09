@@ -1,5 +1,5 @@
 import random
-import datetime
+import time
 
 currentTime = int(time.time())
 randomInt = random.randint()
