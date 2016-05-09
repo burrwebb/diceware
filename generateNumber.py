@@ -2,5 +2,9 @@ import random
 
 
 for x in range(5):
-    print random.randint(1,6),
-print
+    
+    anInt = random.randint(1,6),
+    str(anInt)
+    finalCode = finalCode + anInt
+
+print finalCode
