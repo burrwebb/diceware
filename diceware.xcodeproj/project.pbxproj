@@ -6,10 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXFileReference section */
+		6EF54CD81CE0532F008C608D /* dicewareList.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = dicewareList.csv; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
 /* Begin PBXGroup section */
 		6EF54CD11CE05245008C608D = {
 			isa = PBXGroup;
 			children = (
+				6EF54CD81CE0532F008C608D /* dicewareList.csv */,
 			);
 			sourceTree = "<group>";
 		};
