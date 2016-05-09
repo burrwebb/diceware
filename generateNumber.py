@@ -2,9 +2,9 @@ import random
 import time
 
 currentTime = int(time.time())
-randomInt = random.randint()
+randomInt = random.randint(1,1000000)
 
-myHash = currentTime
+myHash = currentTime * randomInt
 
 random.seed(myHash)
 
