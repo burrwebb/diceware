@@ -27,8 +27,8 @@ for z in range(numberOfWords):
         anInt = str(anInt)
         finalCode = finalCode + anInt
 
-    print ""
-    print "Number: " + finalCode
+    print "+-----------------------------------------"
+    print "|  Number: " + finalCode
 
 
     with open('dicewareList.csv') as csvfile:
@@ -37,7 +37,9 @@ for z in range(numberOfWords):
               idNumber = int(row["idNumber"])
               associatedWord = str(row["associatedWord"])
               if int(finalCode) == idNumber:
-                  print "Word: " + associatedWord
+                  print "|  Word: " + associatedWord
+                  print "+-----------------------------------------"
+                  print ""
 
 
 
