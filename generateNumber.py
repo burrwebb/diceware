@@ -2,6 +2,9 @@ import random
 import time
 import csv
 
+
+numberOfWords = 5
+
 currentTime = int(time.time())
 randomInt = random.randint(1,1000000)
 
@@ -24,8 +27,10 @@ print "Number: " + finalCode
 
 
 with open('dicewareList.csv') as csvfile:
-     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
-     for row in spamreader:
-         print(', '.join(row))
+     fileReader = csv.reader(csvfile, delimiter=',', quotechar='|')
+     for row in fileReader:
+        print row
+         
+        # print(', '.join(row))
 
 
