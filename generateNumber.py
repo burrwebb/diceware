@@ -1,5 +1,6 @@
 import random
 import time
+import csv
 
 currentTime = int(time.time())
 randomInt = random.randint(1,1000000)
@@ -17,4 +18,5 @@ for x in range(5):
     anInt = str(anInt)
     finalCode = finalCode + anInt
 
-print finalCode
+print "Number:" + finalCode
+
