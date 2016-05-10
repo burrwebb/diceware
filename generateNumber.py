@@ -5,10 +5,9 @@ import sys
 
 sys.argv
 
-total = len(sys.argv)
-cmdargs = str(sys.argv)
-
 numberOfWords = str(sys.argv[1])
+
+numberOfWords = int(numberOfWords)
 
 currentTime = int(time.time())
 randomInt = random.randint(1,1000000)
