@@ -24,8 +24,7 @@ for x in range(5):
 print "Number: " + finalCode
 
 
-import csv
- with open('dicewareList.csv') as csvfile:
+with open('dicewareList.csv') as csvfile:
      reader = csv.DictReader(csvfile)
      for row in reader:
          
