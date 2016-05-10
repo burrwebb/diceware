@@ -23,7 +23,7 @@ print "Number: " + finalCode
 
 
 
-with open('dicewareList.csv', newline='') as csvfile:
+with open('dicewareList.csv') as csvfile:
      spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
      for row in spamreader:
          print(', '.join(row))
