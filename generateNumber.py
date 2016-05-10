@@ -29,8 +29,8 @@ with open('dicewareList.csv') as csvfile:
       for row in reader:
           idNumber = int(row["idNumber"])
           associatedWord = str(row["associatedWord"])
-              if int(finalCode) == idNumber:
-                print "Word: " + associatedWord
+          if int(finalCode) == idNumber:
+              print "Word: " + associatedWord
 
 
 
