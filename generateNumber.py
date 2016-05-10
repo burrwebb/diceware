@@ -18,5 +18,14 @@ for x in range(5):
     anInt = str(anInt)
     finalCode = finalCode + anInt
 
-print "Number:" + finalCode
+print "Number: " + finalCode
+
+
+
+
+with open('dicewareList.csv', newline='') as csvfile:
+     spamreader = csv.reader(csvfile, delimiter=',', quotechar='|')
+     for row in spamreader:
+         print(', '.join(row))
+
 
