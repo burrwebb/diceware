@@ -3,8 +3,9 @@ import time
 import csv
 import sys
 
+sys.argv
 
-arg = sys.argv:
+arg = int(sys.argv)
 
 numberOfWords = arg
 
