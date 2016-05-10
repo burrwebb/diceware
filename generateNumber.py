@@ -5,7 +5,7 @@ import sys
 
 sys.argv
 
-arg = int(sys.argv)
+arg = int(sys.argv[0])
 
 numberOfWords = arg
 
