@@ -5,9 +5,10 @@ import sys
 
 sys.argv
 
-arg = int(sys.argv[0])
+total = len(sys.argv)
+cmdargs = str(sys.argv)
 
-numberOfWords = arg
+numberOfWords = str(sys.argv[1])
 
 currentTime = int(time.time())
 randomInt = random.randint(1,1000000)
@@ -39,18 +40,5 @@ for z in range(numberOfWords):
               if int(finalCode) == idNumber:
                   print "Word: " + associatedWord
 
-
-
-
-
-#######################################################
-# with open('dicewareList.csv') as csvfile:
-#      reader = csv.DictReader(csvfile)
-#      for row in reader:
-#          idNumber = int(row["idNumber"])
-#          associatedWord = str(row["associatedWord"])
-#
-#          print "The ID number is: " + str(idNumber) + " and the word is: " + associatedWord
-#######################################################
 
 
