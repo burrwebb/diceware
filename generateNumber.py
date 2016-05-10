@@ -17,7 +17,7 @@ finalCode = str(finalCode)
 
 
 for z in range(numberOfWords):
-
+    finalCode = ""
     for x in range(5):
         
         anInt = random.randint(1,6)
