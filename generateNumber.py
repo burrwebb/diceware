@@ -13,9 +13,6 @@ myHash = currentTime * randomInt
 random.seed(myHash)
 
 
-finalCode = str(finalCode)
-
-
 for z in range(numberOfWords):
     finalCode = ""
     finalCode = str(finalCode)
