@@ -25,11 +25,25 @@ print "Number: " + finalCode
 
 
 with open('dicewareList.csv') as csvfile:
-     reader = csv.DictReader(csvfile)
-     for row in reader:
-         idNumber = int(row["idNumber"])
-         associatedWord = str(row["associatedWord"])
+      reader = csv.DictReader(csvfile)
+      for row in reader:
+          idNumber = int(row["idNumber"])
+          associatedWord = str(row["associatedWord"])
+            if (int(finalCode) == idNumber)
+                print associatedWord
 
-         print "The ID number is: " + str(idNumber) + " and the word is: " + associatedWord
+
+
+
+
+#######################################################
+# with open('dicewareList.csv') as csvfile:
+#      reader = csv.DictReader(csvfile)
+#      for row in reader:
+#          idNumber = int(row["idNumber"])
+#          associatedWord = str(row["associatedWord"])
+#
+#          print "The ID number is: " + str(idNumber) + " and the word is: " + associatedWord
+#######################################################
 
 
