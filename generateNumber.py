@@ -12,12 +12,14 @@ myHash = currentTime * randomInt
 
 random.seed(myHash)
 
-finalCode = ''
+
 finalCode = str(finalCode)
 
 
 for z in range(numberOfWords):
     finalCode = ""
+    finalCode = str(finalCode)
+    
     for x in range(5):
         
         anInt = random.randint(1,6)
