@@ -1,9 +1,12 @@
 import random
 import time
 import csv
+import sys
 
 
-numberOfWords = 5
+arg = sys.argv:
+
+numberOfWords = arg
 
 currentTime = int(time.time())
 randomInt = random.randint(1,1000000)
