@@ -26,7 +26,7 @@ print "Number: " + finalCode
 
 with open('dicewareList.csv') as csvfile:
      reader = csv.DictReader(csvfile)
-     for row in reader:
+     for row in reader(['idNumber'],['associatedWord']):
          
          print(row['idNumber'], row['associatedWord'])
 
