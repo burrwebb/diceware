@@ -30,20 +30,6 @@ with open('dicewareList.csv') as csvfile:
          idNumber = int(row["idNumber"])
          associatedWord = str(row["associatedWord"])
 
-         print "ID Number: " + str(idNumber)
-         print "Word:" + associatedWord
-
-
-#print(row['idNumber'], row['associatedWord'])
-
-
-
-
-#with open('dicewareList.csv') as csvfile:
-#     fileReader = csv.reader(csvfile, delimiter=',', quotechar='|')
-#     for row in fileReader:
-#        print row
-         
-        # print(', '.join(row))
+         print "The ID number is: " + str(idNumber) and "the word is: " + associatedWord
 
 
