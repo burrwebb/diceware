@@ -1,6 +1,4 @@
 # ideal-waffle
-Diceware Experimentation
-
 
 Tinkering with a simple CLI Diceware implementation for python.
 
@@ -8,5 +6,5 @@ Simply pass a number as a parameter to set the length of your passphrase (number
 
 Example:
 
-$ python generatePassword.py 6
+  $ python generatePassword.py 6
 
