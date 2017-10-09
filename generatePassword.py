@@ -38,10 +38,10 @@ for z in range(numberOfWords):
 				print "|  Word: " + associatedWord
 				print "+-----------------------------------------"
 				print ""
-    		
-    		if z == 0:
+
+        if z == 0:
 				finalPassphrase = finalPassphrase + associatedWord
-			else:
+        else:
 				finalPassphrase = finalPassphrase + " + " + associatedWord
 			
 print("Final Passphrase: " + finalPassphrase)

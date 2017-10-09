@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXFileReference section */
+		6EE43F451F8B1C320058D93D /* generatePassword-new.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = "generatePassword-new.py"; sourceTree = "<group>"; };
 		6EF54CD81CE0532F008C608D /* dicewareList.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = dicewareList.csv; sourceTree = "<group>"; };
-		6EF54CD91CE054C2008C608D /* generatePassword.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = generatePassword.py; sourceTree = "<group>"; };
+		6EF54CD91CE054C2008C608D /* generatePassword.py */ = {isa = PBXFileReference; lastKnownFileType = text.script.python; path = generatePassword.py; sourceTree = "<group>"; usesTabs = 1; };
 /* End PBXFileReference section */
 
 /* Begin PBXGroup section */
 		6EF54CD11CE05245008C608D = {
 			isa = PBXGroup;
 			children = (
+				6EE43F451F8B1C320058D93D /* generatePassword-new.py */,
 				6EF54CD81CE0532F008C608D /* dicewareList.csv */,
 				6EF54CD91CE054C2008C608D /* generatePassword.py */,
 			);
