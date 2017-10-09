@@ -62,7 +62,6 @@ def main():
 						finalPassphrase = finalPassphrase + newWord
 					else:
 						finalPassphrase = finalPassphrase + " + " + newWord
-
-							box_my_text(("Your New Passphrase:   " + finalPassphrase))
+	box_my_text(("Your New Passphrase:   " + finalPassphrase))
 
 main()
