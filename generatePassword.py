@@ -26,9 +26,7 @@ def main():
 	sys.argv
 	
 	numberOfWords = int(sys.argv[1])
-	
-	#numberOfWords = int(numberOfWords)
-	
+
 	currentTime = int(time.time())
 	randomInt = random.randint(1,1000000)
 	
@@ -40,12 +38,11 @@ def main():
 	
 	for z in range(numberOfWords):
 		finalCode = ""
-		finalCode = str(finalCode)
 		
 		for x in range(5):
 			anInt = random.randint(1,6)
 			anInt = str(anInt)
-			finalCode = finalCode + anInt
+			finalCode += anInt
 	
 		with open('dicewareList.csv') as csvfile:
 			reader = csv.DictReader(csvfile)
@@ -59,9 +56,9 @@ def main():
 					newWord = associatedWord
 					
 					if z == 0:
-						finalPassphrase = finalPassphrase + newWord
+						finalPassphrase += newWord
 					else:
-						finalPassphrase = finalPassphrase + " + " + newWord
-	box_my_text(("Your New Passphrase:   " + finalPassphrase))
+						finalPassphrase = finalPassphrase + " " + newWord
+	box_my_text("Your New Passphrase:   " + finalPassphrase)
 
 main()
