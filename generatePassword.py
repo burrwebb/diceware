@@ -3,6 +3,7 @@ import time
 import csv
 import sys
 
+
 def box_my_text(the_input_text):
 	str(the_input_text)
 	
@@ -22,43 +23,49 @@ def box_my_text(the_input_text):
 	print(header_footer)
 	print('')
 
-def main():
-	sys.argv
-	
-	numberOfWords = int(sys.argv[1])
 
-	currentTime = int(time.time())
-	randomInt = random.randint(1,1000000)
+def main():
+
+	number_of_words = int(sys.argv[1])
+
+	current_time = int(time.time())
+	random_int = random.randint(1, 1000000)
 	
-	myHash = currentTime * randomInt
+	my_hash = current_time * random_int
 	
-	random.seed(myHash)
-	finalPassphrase = ""
-	
-	
-	for z in range(numberOfWords):
-		finalCode = ""
+	random.seed(my_hash)
+	final_passphrase = ""
+
+	for z in range(number_of_words):
+		final_code = ""
 		
 		for x in range(5):
-			anInt = random.randint(1,6)
-			anInt = str(anInt)
-			finalCode += anInt
+			an_int = random.randint(1, 6)
+			an_int = str(an_int)
+			final_code += an_int
 	
 		with open('dicewareList.csv') as csvfile:
 			reader = csv.DictReader(csvfile)
 			
 			for row in reader:
-				newWord = ""
-				idNumber = int(row["idNumber"])
-				associatedWord = str(row["associatedWord"])
+				new_word = ""
+				id_number = int(row["idNumber"])
+				associated_word = str(row["associatedWord"])
 				
-				if int(finalCode) == idNumber:
-					newWord = associatedWord
+				if int(final_code) == id_number:
+					new_word = associated_word
 					
 					if z == 0:
-						finalPassphrase += newWord
+						final_passphrase += new_word
 					else:
-						finalPassphrase = finalPassphrase + " " + newWord
-	box_my_text("Your New Passphrase:   " + finalPassphrase)
+						final_passphrase = final_passphrase + " " + new_word
 
+	box_my_text("Your New Passphrase:   " + final_passphrase)
+
+
+##########################
+#
+#  Execute main()
+#
+##########################
 main()
