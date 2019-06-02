@@ -10,7 +10,7 @@ setup(
     author='Burr Webb',
     author_email='burrwebb@gmail.com',
     keywords=['example'],
-    url='https://www.risksense.com',
+    url='https://github.com/burrwebb/ideal-waffle',
     install_requires=[
         'requests',
     ]
