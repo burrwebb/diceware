@@ -8,7 +8,7 @@ Tinkering with a simple Diceware implementation class for Python.
 ## Installation
 ```python
 
-$ python3 setup.py install
+python3 setup.py install
 
 ```
 
