@@ -5,8 +5,16 @@ Version 0.4
 Tinkering with a simple Diceware implementation class for Python.
 
 
+## Installation
+```python
 
-##Usage
+$ python3 setup.py install
+
+```
+
+
+
+## Usage
 
 #### Generate a Single Passphrase
 
