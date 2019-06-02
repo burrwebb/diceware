@@ -14,6 +14,7 @@ class Diceware:
         Initialization of the class.
 
         :param csv_file:    Path to a diceware csv file.
+        :type  csv_file:    str
         """
 
         self.csv_file = csv_file
@@ -35,9 +36,11 @@ class Diceware:
         """
         Generates a diceware passphrase.
 
-        :param passphrase_length:   Integer.  The number of words to include in the passphrase.
+        :param passphrase_length:   The number of words to include in the passphrase.
+        :type  passphrase_length:   int
 
-        :return: String.  The passphrase generated.
+        :return:    The passphrase generated.
+        :rtype:     str
         """
 
         new_passphrase = ""
@@ -73,9 +76,13 @@ class Diceware:
         Generates multiple passphrases.
 
         :param length_of_phrases:   The length each passphrase generated.
-        :param number_of_phrases:   The number of passphrases to generate.
+        :type  length_of_phrases:   int
 
-        :return:    List.  A list of the passphrases generated.
+        :param number_of_phrases:   The number of passphrases to generate.
+        :type  number_of_phrases:   int
+
+        :return:    A list of the passphrases generated.
+        :rtype:     list
         """
 
         list_of_phrases = []

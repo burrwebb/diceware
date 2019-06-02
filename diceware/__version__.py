@@ -1,0 +1,7 @@
+__title__ = 'Ideal Waffle'
+__description__ = 'Diceware implementation experimentation.'
+__url__ = 'http://github.com/burrwebb'
+__version__ = '0.4'
+__author__ = 'Burr Webb'
+__author_email__ = 'burrwebb@gmail.com'
+__license__ = 'MIT'
