@@ -1,22 +1,5 @@
-""" ===================================================================================================================
-|
-|   Name      :  __version__.py
-|   Module    :  diceware
-|   Copyright :  2019 Burr Webb
-|   License   :  MIT  (https://choosealicense.com/licenses/mit)
-|
-=================================================================================================================== """
+----------- Begin license text. -----------
 
-__title__ = 'Ideal Waffle'
-__description__ = 'Diceware implementation experimentation.'
-__url__ = 'https://github.com/burrwebb/ideal-waffle'
-__version__ = '0.4'
-__author__ = 'Burr Webb'
-__author_email__ = 'burrwebb@gmail.com'
-__license__ = 'MIT'
-
-
-"""
 Copyright 2019 Burr Webb
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
@@ -33,4 +16,5 @@ LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE A
 IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY,
 WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-"""
+
+----------- End license text. -----------
