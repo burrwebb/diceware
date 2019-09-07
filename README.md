@@ -4,6 +4,12 @@ Version 0.4
 
 Tinkering with a simple Diceware implementation class for Python.
 
+## Requirements
+```commandline
+
+pip3 install -r requirements.txt
+
+```
 
 ## Installation
 ```python
@@ -12,13 +18,9 @@ python3 setup.py install
 
 ```
 
-
-
 ## Usage
 
 #### Generate a Single Passphrase
-
-
 ```python
 import diceware
 
@@ -30,7 +32,6 @@ my_passphrase = diceware_instance.generate()
 
 
 #### Generate Multiple Passphrases
-
 ```python
 
 import diceware

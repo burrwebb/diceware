@@ -1,7 +1,7 @@
 """ ===================================================================================================================
 |
 |   Name      :  diceware.py
-|   Module    :  diceware
+|   Module    :  ideal_waffle
 |   Copyright :  2019 Burr Webb
 |   License   :  MIT  (https://choosealicense.com/licenses/mit)
 |
@@ -14,7 +14,7 @@ import csv
 class Diceware:
 
     """
-    Diceware Implementation Experimentation
+    Diceware Implementation
     """
 
     def __init__(self, csv_file):
@@ -53,10 +53,10 @@ class Diceware:
 
         new_passphrase = ""
 
-        for z in range(passphrase_length):
+        for num in range(passphrase_length):
             final_code = ""
 
-            for x in range(5):
+            for code_num in range(5):
                 an_int = random.randint(1, 6)
                 an_int = str(an_int)
                 final_code += an_int
@@ -71,7 +71,7 @@ class Diceware:
                     if int(final_code) == id_number:
                         new_word = associated_word
 
-                        if z == 0:
+                        if num == 0:
                             new_passphrase += new_word
                         else:
                             new_passphrase = new_passphrase + " " + new_word

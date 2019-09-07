@@ -1,7 +1,7 @@
 """ ===================================================================================================================
 |
 |   Name      :  __version__.py
-|   Module    :  diceware
+|   Module    :  ideal_waffle
 |   Copyright :  2019 Burr Webb
 |   License   :  MIT  (https://choosealicense.com/licenses/mit)
 |
@@ -10,7 +10,7 @@
 __title__ = 'Ideal Waffle'
 __description__ = 'Diceware implementation experimentation.'
 __url__ = 'https://github.com/burrwebb/ideal-waffle'
-__version__ = '0.4'
+__version__ = '0.4.1'
 __author__ = 'Burr Webb'
 __author_email__ = 'burrwebb@gmail.com'
 __license__ = 'MIT'

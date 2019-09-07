@@ -1,7 +1,7 @@
 """ ===================================================================================================================
 |
 |   Name      :  __init__.py
-|   Module    :  diceware
+|   Module    :  ideal_waffle
 |   Copyright :  2019 Burr Webb
 |   License   :  MIT  (https://choosealicense.com/licenses/mit)
 |
@@ -13,7 +13,7 @@ from .__version__ import __license__
 
 from .diceware import Diceware
 
-_all__ = [
+__all__ = [
     'Diceware'
 ]
 
