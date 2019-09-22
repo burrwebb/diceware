@@ -11,15 +11,15 @@ from setuptools import setup
 import diceware.__version__ as version_string
 
 setup(
-    name='ideal_waffle',
+    name='diceware',
     version=version_string,
     description='A module for creation of diceware passphrases',
     license='MIT',
-    packages=['ideal_waffle'],
+    packages=['diceware'],
     author='Burr Webb',
     author_email='burrwebb@gmail.com',
     keywords=['diceware'],
-    url='https://github.com/burrwebb/ideal-waffle',
+    url='https://github.com/burrwebb/diceware',
     install_requires=[
         'requests'
     ]
