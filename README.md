@@ -1,6 +1,6 @@
-# ideal-waffle
+# diceware
 
-Version 0.4
+Version 0.4.1
 
 Tinkering with a simple Diceware implementation class for Python.
 
