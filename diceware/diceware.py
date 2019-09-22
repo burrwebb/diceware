@@ -1,7 +1,7 @@
 """ ===================================================================================================================
 |
 |   Name      :  diceware.py
-|   Module    :  ideal_waffle
+|   Module    :  diceware
 |   Copyright :  2019 Burr Webb
 |   License   :  MIT  (https://opensource.org/licenses/MIT)
 |
