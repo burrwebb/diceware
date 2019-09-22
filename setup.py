@@ -3,7 +3,7 @@
 |   Name      :  setup.py
 |   Module    :  ideal_waffle
 |   Copyright :  2019 Burr Webb
-|   License   :  MIT  (https://choosealicense.com/licenses/mit)
+|   License   :  MIT  (https://opensource.org/licenses/MIT)
 |
 =================================================================================================================== """
 
