@@ -20,9 +20,7 @@ setup(
     author_email='burrwebb@gmail.com',
     keywords=['diceware'],
     url='https://github.com/burrwebb/diceware',
-    install_requires=[
-        'requests'
-    ]
+    install_requires=[]
 )
 
 

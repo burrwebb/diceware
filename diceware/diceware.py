@@ -17,7 +17,7 @@ class Diceware:
     Diceware Implementation
     """
 
-    def __init__(self, csv_file):
+    def __init__(self, csv_file='dicewareList.csv'):
 
         """
         Initialization of the class.
