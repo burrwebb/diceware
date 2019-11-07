@@ -10,7 +10,7 @@
 __title__ = 'Diceware'
 __description__ = 'Diceware implementation experimentation.'
 __url__ = 'https://github.com/burrwebb/diceware'
-__version__ = '0.4.1'
+__version__ = '0.4.2'
 __author__ = 'Burr Webb'
 __author_email__ = 'burrwebb@gmail.com'
 __license__ = 'MIT'

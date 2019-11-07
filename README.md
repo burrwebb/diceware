@@ -1,21 +1,12 @@
 # diceware
 
-Version 0.4.1
+Version 0.4.2
 
 Tinkering with a simple Diceware implementation class for Python.
 
-## Requirements
-```commandline
-
-pip3 install -r requirements.txt
-
-```
-
 ## Installation
-```python
-
+```commandline
 python3 setup.py install
-
 ```
 
 ## Module Usage
@@ -32,7 +23,6 @@ my_passphrase = diceware_instance.generate()
 
 #### Generate Multiple Passphrases
 ```python
-
 import diceware
 
 csv_file_location = 'dicewareList.csv'
